@@ -17,9 +17,9 @@ winning_percentage = 0
 
 # create a list for the counties
 county_options = []
-county_votes = []
+county_votes = {}
 #Create a dictionary where the county is the key and the votes cast for each county in the election are the values.
-counties_dict = {}
+
 
 #Create an empty string that will hold the county name that had the largest turnout.
 Largest_County_Turnout = []
@@ -69,9 +69,9 @@ with open(file_to_load) as election_data:
             # Add the candidate name to the candidate list.
             county_options.append(county_name)
             # And begin tracking that candidate's voter count.
-            counties_dict[county_name] = 0
+            county_votes[county_name] = 0
         # Add a vote to that candidate's count.
-        counties_dict[county_name] += 1
+        county_votes[county_name] += 1
 # Save the results to our text file.
 
 with open(file_to_save, "w") as txt_file:

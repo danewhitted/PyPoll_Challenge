@@ -3,6 +3,9 @@ Election Results
 -------------------------
 Total Votes: 739,422
 -------------------------
+Jefferson: 5.3% (38,855)
+Denver: 41.4% (306,055)
+Arapahoe: 3.4% (24,801)
 Charles Casper Stockham: 11.5% (85,213)
 Diana DeGette: 36.9% (272,892)
 Raymon Anthony Doane: 1.6% (11,606)
