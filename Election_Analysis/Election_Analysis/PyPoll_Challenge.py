@@ -69,9 +69,9 @@ with open(file_to_load) as election_data:
             # Add the candidate name to the candidate list.
             county_options.append(county_name)
             # And begin tracking that candidate's voter count.
-            county_votes[county_name] = 0
+            counties_dict[county_name] = 0
         # Add a vote to that candidate's count.
-        county_votes[county_name] += 1
+        counties_dict[county_name] += 1
 # Save the results to our text file.
 
 with open(file_to_save, "w") as txt_file:
